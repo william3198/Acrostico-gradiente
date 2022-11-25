@@ -3,6 +3,6 @@
 
 .body{
     background-image: url("./img/gradiente.png");
-    font-family: serif;
+    font-family: 'Allura', cursive;
     min-height: 100vh;
 }

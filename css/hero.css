@@ -3,6 +3,63 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-   
+}
+
+.hero__name{
+    font-size: 4rem;
+    text-decoration: none;
+}
+
+.hero__letter{
+    position: relative;
     
+}
+
+.hero__letter::after{
+    content: var(--letter);
+    position: absolute;
+    left: 0;
+    filter: blur(0.2rem);
+    
+}
+
+.hero__letter::before{
+    content: var(--letter);
+    position: absolute;
+    filter: blur(0.125rem);
+    transform: rotateX(180deg);
+    top : 100%;
+}
+
+.hero__letter:nth-child(1){
+    color: #9400d3;
+
+}
+.hero__letter:nth-child(2){
+    color: #bb00ff;
+
+}
+.hero__letter:nth-child(3){
+    color: #0000ff;
+
+}
+.hero__letter:nth-child(4){
+    color: #00ff00;
+
+}
+.hero__letter:nth-child(5){
+    color: #ffff00;
+
+}
+.hero__letter:nth-child(6){
+    color: #ff7f00;
+
+}
+.hero__letter:nth-child(7){
+    color: hwb(14 0% 0%);
+
+}
+.hero__letter:nth-child(8){
+    color:  #ff0000;
+
 }
