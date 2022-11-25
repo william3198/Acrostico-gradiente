@@ -1,8 +1,9 @@
 @import './variables.css';
 @import './hero.css';
+@import './animation.css';
 
 .body{
-    background-image: url("./img/gradiente.png");
+    background-image: url("./img/radial.png");
     font-family: 'Allura', cursive;
     min-height: 100vh;
 }

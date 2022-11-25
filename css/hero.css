@@ -6,12 +6,16 @@
 }
 
 .hero__name{
+    display: block;
     font-size: 4rem;
     text-decoration: none;
+    animation: zoom 1s ease-in-out 0s infinite alternate;
 }
 
 .hero__letter{
+    display: inline-block;
     position: relative;
+    transition: filter 1s ease-in-out;
     
 }
 
